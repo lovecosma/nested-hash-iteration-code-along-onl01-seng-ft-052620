@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     if person == "Freddy Mercury"
       person.each do |attribute, value|
         if attribute == favorite_ice_cream_flavors:
-          contacts["Freddy Mercury"][favorite_ice_cream_flavors:][0]
+          puts "hey"
         end
       end
     end
