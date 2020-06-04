@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
       person.each do |attribute, value|
         if attribute == favorite_ice_cream_flavors:
           contacts["Freddy Mercury"][favorite_ice_cream_flavors:][0].shift
-        end 
+        end
       end
     end
   end
