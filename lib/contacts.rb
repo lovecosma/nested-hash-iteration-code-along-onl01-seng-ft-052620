@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
       data.each do |attribute, value|
         if attribute == "favorite_ice_cream_flavors:"
           if value == "strawberry"
-            contacts["Freddie Mercury"]["favorite_ice_cream_flavors"].pop
+            contacts["Freddie Mercury"]["favorite_ice_cream_flavors"][0].pop
           end
         end
       end
