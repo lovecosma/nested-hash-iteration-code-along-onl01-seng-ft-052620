@@ -22,10 +22,10 @@ require 'pry'
          values.each do |flavor|
          if flavor == "strawberry"
            values.shift
-         end 
-         end 
-       end 
-      end 
+         end
+         end
+       end
+      end
      end
    end
    contacts
