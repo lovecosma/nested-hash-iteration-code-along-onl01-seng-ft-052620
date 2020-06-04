@@ -21,7 +21,7 @@ def remove_strawberry(contacts)
         if attribute == "favorite_ice_cream_flavors:"
           if value == "strawberry"
             contacts["Freddie Mercury"]
-          end 
+          end
         end
       end
     end
